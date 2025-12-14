@@ -5,6 +5,11 @@ app_description = "cat"
 app_email = "tranduyvuong100@gmail.com"
 app_license = "mit"
 
+patches = [
+    "cat_laser.patches.v0_1_0.execute"
+]
+
+
 # Apps
 # ------------------
 
