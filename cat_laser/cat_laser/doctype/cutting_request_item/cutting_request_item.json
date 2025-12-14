@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "creation": "2024-05-20 10:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_name",
+  "length",
+  "qty",
+  "priority",
+  "is_last_segment"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tên Sắt / Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "length",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Kích thước (mm)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Số lượng",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "priority",
+   "fieldtype": "Int",
+   "label": "Độ ưu tiên"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_last_segment",
+   "fieldtype": "Check",
+   "label": "Ư/T Đoạn cuối"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-20 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Cat Laser",
+ "name": "Cutting Request Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
