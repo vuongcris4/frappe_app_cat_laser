@@ -8,9 +8,17 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 
 ```bash
 cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
+bench get-app [$URL_OF_THIS_REPO](https://github.com/vuongcris4/frappe_app_cat_laser) --branch develop
 bench install-app cat_laser
 ```
+
+## Dependencies
+
+Before installing this app, install required Python packages:
+
+```bash
+bench pip install --system -r apps/cat_laser/cat_laser/requirements.txt
+
 
 ### Contributing
 
